@@ -1,0 +1,25 @@
+.support {
+  padding: 80px 0;
+  background-color: #ececec;
+}
+
+.support-inner {
+  text-align: center;
+}
+
+.support-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 28px;
+  color: var(--color-black);
+}
+
+.support-btn {
+  border: 1px solid var(--color-black);
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}

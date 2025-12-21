@@ -1,0 +1,107 @@
+.products {
+  padding: 80px 0;
+  background-color: var(--color-white);
+}
+
+.products-title {
+  font-size: 26px;
+  font-weight: 700;
+  font-variation-settings: "wght" 700;
+  margin-bottom: 40px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+/* ------------------- CARD BASE ------------------- */
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  border-radius: 32px;
+  height: 390px; /* adjust later */
+}
+
+/* Yellow Card */
+.card-yellow {
+  background-color: var(--color-yellow);
+}
+
+/* Gray Cards */
+.card-gray {
+  background-color: #eae9e6;
+}
+
+/* Text styles */
+.product-pretitle {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.gray-text {
+  color: #6d6d6d;
+}
+
+.product-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.product-desc {
+  font-size: 15px;
+  line-height: 150%;
+  max-width: 280px;
+}
+
+/* ------------------- BUTTONS ------------------- */
+
+/* Yellow card: Two buttons */
+.product-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* White button */
+.btn-white {
+  background-color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* Black button */
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Gray card button */
+.btn-gray {
+  background-color: #dddcd8;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 24px;
+}

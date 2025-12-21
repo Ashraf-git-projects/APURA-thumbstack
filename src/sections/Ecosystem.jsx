@@ -1,0 +1,19 @@
+import React from "react";
+import "./Ecosystem.css";
+
+const Ecosystem = () => {
+  return (
+    <section className="ecosystem" id="ecosystem">
+      <div className="container ecosystem-inner">
+
+        <h2 className="ecosystem-title">
+          APURA is an ecosystem dedicated to the privacy and
+          security of their users; completely build from scratch.
+        </h2>
+
+      </div>
+    </section>
+  );
+};
+
+export default Ecosystem;
