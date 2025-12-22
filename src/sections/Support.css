@@ -26,3 +26,54 @@
   cursor: pointer;
   font-weight: 600;
 }
+/* =============================
+      TABLET (769px – 1024px)
+============================= */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .support {
+    padding: 60px 0;
+  }
+
+  .support-title {
+    font-size: 30px;
+    margin: 0 40px 24px;
+    letter-spacing: -1.5px;
+    line-height: 150%;
+  }
+
+  .support-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+
+/* =============================
+      MOBILE (max-width: 768px)
+============================= */
+@media (max-width: 768px) {
+  .support {
+    padding: 50px 0;
+  }
+
+  .support-inner {
+    text-align: left;
+    margin: 0 20px;
+  }
+
+  .support-title {
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: -1.2px;
+    max-width: 85%;
+    margin-bottom: 20px;
+  }
+
+  .support-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+}

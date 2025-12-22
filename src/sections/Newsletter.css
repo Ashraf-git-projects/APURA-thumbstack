@@ -48,3 +48,86 @@
   font-size: 14px;
   font-weight: 600;
 }
+/* =============================
+      TABLET (769px – 1024px)
+============================= */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .newsletter-inner {
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .flex-news {
+    max-width: 90%;
+  }
+
+  .news-title {
+    font-size: 24px;
+  }
+
+  .news-desc {
+    font-size: 15px;
+  }
+
+  .news-form {
+    width: 100%;
+  }
+
+  .news-input {
+    width: 60%;
+  }
+
+  .news-btn {
+    width: 40%;
+    font-size: 14px;
+  }
+}
+
+
+/* =============================
+      MOBILE (max-width: 768px)
+============================= */
+@media (max-width: 768px) {
+  .newsletter-inner {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .flex-news {
+    text-align: left;
+    width: 100%;
+  }
+
+  .news-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .news-desc {
+    font-size: 14px;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .news-form {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .news-input {
+    width: 100%;
+    border-radius: 8px;
+    border-right: 1px solid var(--color-black);
+  }
+
+  .news-btn {
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 14px;
+  }
+}

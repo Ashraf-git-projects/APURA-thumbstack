@@ -119,3 +119,160 @@
   line-height: 140%;
   max-width: 420px;
 }
+/* -------------------------------------
+   MOBILE (Figma accurate)
+-------------------------------------- */
+@media (max-width: 768px) {
+
+  .roadmap {
+    padding: 60px 0;
+  }
+
+  .roadmap-title {
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -1px;
+    text-align: left;
+    margin: 0 20px 40px;
+  }
+
+  .roadmap-list {
+    margin: 0 0;
+    gap: 0;
+  }
+
+  .stage-row {
+    grid-template-columns: 1fr;
+    padding: 24px 20px;
+    border-bottom: 1px solid #dcdcdc;
+    border-radius: 0;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .stage-highlight {
+    padding: 26px 20px;
+    border-radius: 0;
+  }
+
+  .stage-left p,
+  .stage-left h4 {
+    margin: 0;
+  }
+
+  .stage-number {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .stage-title {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .stage-label {
+    margin-top: 4px;
+    font-size: 12px;
+  }
+
+  .stage-middle {
+    font-size: 13px;
+    line-height: 150%;
+    max-width: 100%;
+  }
+
+  .stage-right {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  .btn-outline,
+  .btn-white {
+    padding: 8px 16px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+
+  .arrow,
+  .arrow-dark {
+    margin-left: auto;
+    font-size: 20px;
+  }
+
+  .coming-soon {
+    width: 100%;
+    text-align: right;
+    margin-top: 4px;
+  }
+}
+/* -------------------------------------
+   TABLET (Between desktop & mobile)
+-------------------------------------- */
+@media (max-width: 1024px) and (min-width: 769px) {
+
+  .roadmap {
+    padding: 80px 0;
+  }
+
+  .roadmap-title {
+    font-size: 56px;
+    line-height: 115%;
+    letter-spacing: -3px;
+    text-align: left;
+    margin: 0 40px 50px;
+  }
+
+  .roadmap-list {
+    margin: 0 20px;
+    gap: 20px;
+  }
+
+  .stage-row {
+    grid-template-columns: 160px 1fr 140px;
+    padding: 28px 24px;
+    border-radius: 18px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .stage-highlight {
+    padding: 32px 24px;
+  }
+
+  .stage-number {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .stage-title {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .stage-middle {
+    font-size: 14px;
+    line-height: 150%;
+    max-width: 360px;
+  }
+
+  .stage-right {
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .btn-outline,
+  .btn-white {
+    padding: 10px 16px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+
+  .arrow,
+  .arrow-dark {
+    font-size: 20px;
+  }
+
+  .coming-soon {
+    font-size: 13px;
+  }
+}

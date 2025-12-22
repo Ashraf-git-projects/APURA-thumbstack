@@ -23,3 +23,50 @@
   font-variation-settings: "whgt" 600;
   padding: 20px 0px 20px;
 }
+@media (max-width: 768px) {
+
+  .ecosystem {
+    padding: 60px 20px;              
+  }
+
+  .ecosystem-title {
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -1px;
+  }
+
+  .ecosystem-inner {
+    max-width: 100%;
+  }
+
+  .signup-divider {
+    width: 100%;                      
+    margin: 40px 0;
+  }
+
+  .dynamic {
+    text-align: left;               
+    padding: 10px 0 0;
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .ecosystem {
+    padding: 80px 40px;
+  }
+
+  .ecosystem-title {
+    font-size: 52px;
+    line-height: 115%;
+  }
+
+  .signup-divider {
+    width: 100%;
+  }
+
+  .dynamic {
+    text-align: right;
+    font-size: 13px;
+  }
+}

@@ -1,14 +1,17 @@
+/* -------------------------------
+   Desktop (default)
+-------------------------------- */
 .navbar {
   width: 100%;
-  padding: 50px 30px;          
+  padding: 50px 30px;
   background-color: var(--color-yellow);
   position: sticky;
   top: 0;
   z-index: 50;
   display: flex;
   align-items: center;
-  justify-content: flex-start;  
-  position: relative;           
+  justify-content: flex-start;
+  position: relative;
 }
 
 .nav-logo {
@@ -17,7 +20,6 @@
   font-variation-settings: "wght" 700;
   padding-left: 40px;
 }
-
 
 .nav-inner {
   position: absolute;
@@ -34,13 +36,14 @@
   font-variation-settings: "wght" 600;
   color: var(--color-black);
 }
+
 .dropdown-arrow {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   margin-left: 1px;
   position: relative;
-  top: 2px;     
+  top: 2px;
 }
 
 .dropdown-arrow svg {
@@ -48,3 +51,75 @@
   height: 12px;
 }
 
+.nav-toggle{
+  display: none;
+}
+/* -------------------------------
+   Mobile (hide desktop nav)
+-------------------------------- */
+@media (max-width: 768px) {
+  .nav-inner {
+    display: none; /* hide nav center links */
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 28px 20px;
+  }
+
+  .nav-logo {
+    padding-left: 0;
+    font-size: 15px;
+  }
+
+  /* hamburger */
+  .nav-toggle {
+    display: block;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  /* mobile menu */
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 72px;
+    right: 20px;
+    background: var(--color-yellow);
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  }
+
+  .mobile-menu a {
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #242424;
+  }
+}
+
+
+/* -------------------------------
+   Tablet (show full menu but tighter spacing)
+-------------------------------- */
+@media (min-width: 768px) and (max-width: 1300px) {
+  .navbar {
+    padding: 40px 24px;
+  }
+
+  .nav-logo {
+    padding-left: 10px;
+  }
+
+  .nav-inner {
+    gap: 26px; /* reduced spacing for mid screens */
+  }
+
+  .nav-inner a {
+    font-size: 11px;
+  }
+}

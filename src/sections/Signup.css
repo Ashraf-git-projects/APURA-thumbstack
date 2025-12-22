@@ -67,3 +67,71 @@
   height: 1px;
   background-color: #242424;
 }
+/* --------------------------------------------
+   Mobile (max-width: 768px)
+---------------------------------------------*/
+@media (max-width: 768px) {
+
+  .signup-inner {
+    margin: 0 20px;            
+  }
+
+  .signup-flex {
+    flex-direction: column;    
+    align-items: flex-start;
+    gap: 22px;
+  }
+
+  .signup-title {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .signup-form {
+    width: 100%;
+    height: 52px;
+  }
+
+  .signup-input {
+    font-size: 13px;
+    padding: 0 14px;
+  }
+
+  .signup-button {
+    font-size: 13px;
+    padding: 0 18px;
+  }
+
+  .signup-divider {
+    width: 100%;             
+    margin-top: 40px;
+  }
+}
+
+
+/* --------------------------------------------
+   Tablet (768px - 1200px)
+---------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .signup-inner {
+    margin: 0 40px;
+  }
+
+  .signup-flex {
+    gap: 40px;                
+  }
+
+  .signup-title {
+    font-size: 30px;
+  }
+
+  .signup-form {
+    width: 340px;           
+    height: 55px;
+  }
+
+  .signup-divider {
+    width: 100%;               
+  }
+}
