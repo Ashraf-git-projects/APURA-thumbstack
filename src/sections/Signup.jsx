@@ -3,9 +3,9 @@ import "./Signup.css";
 
 const Signup = () => {
   return (
-    <section className="signup">
-      <div className="container signup-inner">
-
+    <section className="signup" id="signup">
+      <div className="signup-inner">
+       <div className="signup-flex">
         <h3 className="signup-title">
           Join the future of data sovereignty
         </h3>
@@ -16,8 +16,11 @@ const Signup = () => {
             placeholder="Enter your email"
             className="signup-input"
           />
-          <button className="signup-button">Sign up</button>
+          <button className="signup-button">Join</button>
         </div>
+        </div>
+
+        <div className="signup-divider"></div>
 
       </div>
     </section>

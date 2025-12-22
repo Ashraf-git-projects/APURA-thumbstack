@@ -8,9 +8,7 @@
 }
 
 
-/* ---------------------------------------------------
-   HERO TITLE (Large Heading)
------------------------------------------------------ */
+
 
 .hero-title {
   font-size: 92px;              
@@ -24,9 +22,6 @@
 }
 
 
-/* ---------------------------------------------------
-   SUBTITLE
------------------------------------------------------ */
 
 .hero-subtitle {
   font-size: 24px;
@@ -39,29 +34,24 @@
 }
 
 
-/* ---------------------------------------------------
-   FEATURES SECTION
------------------------------------------------------ */
 
 .hero-features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 70px;
+  gap: 100px;
  margin-top: 120px;
  padding-top: 80px;  
   max-width: 1200px;         
-  margin: 0 auto;        
+  margin: 0 80px;        
 }
 
 
-/* each item width is controlled for line-break behavior */
 .feature-item {
   max-width: 260px;
   text-align: left;
 }
 
 
-/* thin grey line above every item */
 .feature-line {
   width: 220px;
   height: 1px;
@@ -71,7 +61,6 @@
 }
 
 
-/* feature title (can be multi-line) */
 .feature-item h4 {
   font-size: 13px;
   font-weight: 700;
@@ -83,7 +72,6 @@
 }
 
 
-/* feature description */
 .feature-item p {
   font-size: 13px;
   line-height: 150%;

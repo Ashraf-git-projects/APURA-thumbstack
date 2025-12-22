@@ -3,22 +3,28 @@
 }
 
 .roadmap-title {
-  font-size: 42px;
-  font-weight: 700;
+  font-size: 86px;
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
   margin-bottom: 60px;
   color: var(--color-black);
-  line-height: 120%;
+  line-height: 110.00000000000001%;
+  text-align: center;
+  letter-spacing: -5px;
+
 }
 
-/* ------- Rows container ------- */
+
 
 .roadmap-list {
   display: flex;
   flex-direction: column;
   gap: 26px;
+  margin: 80px 20px;
+
 }
 
-/* ------- Stage row ------- */
+
 
 .stage-row {
   display: grid;
@@ -29,14 +35,14 @@
   border-radius: 20px;
 }
 
-/* Remove border for highlight */
+
 .stage-highlight {
   background-color: var(--color-yellow);
   border-bottom: none;
   padding: 36px 28px;
 }
 
-/* ---------- TEXT STYLES ---------- */
+
 
 .stage-number {
   font-size: 18px;
@@ -55,18 +61,17 @@
   color: #555;
 }
 
-/* Disabled for stages 3-5 */
 .disabled {
   opacity: 0.4;
 }
 
-/* Coming soon text */
+
 .coming-soon {
   font-size: 14px;
   opacity: 0.5;
 }
 
-/* ---------- BUTTONS ---------- */
+
 
 .btn-outline {
   padding: 10px 18px;
@@ -85,7 +90,7 @@
   font-weight: 600;
 }
 
-/* ---------- Arrows ---------- */
+
 
 .arrow,
 .arrow-dark {
@@ -101,7 +106,7 @@
   color: #000;
 }
 
-/* Right side */
+
 .stage-right {
   display: flex;
   align-items: center;

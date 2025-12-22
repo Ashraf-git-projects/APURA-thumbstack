@@ -55,7 +55,8 @@ const Products = () => {
               </p>
             </div>
 
-            <button className="btn-gray">Read more →</button>
+            <button className="btn-white">Read more <span>→</span></button>
+
           </div>
 
         </div>

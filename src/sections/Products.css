@@ -1,19 +1,21 @@
+
+
 .products {
-  padding: 80px 0;
+  padding: 100px 50px;
   background-color: var(--color-white);
 }
 
 .products-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 700;
-  font-variation-settings: "wght" 700;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  letter-spacing: -0.5px;
 }
 
 .products-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 10px; 
 }
 
 /* ------------------- CARD BASE ------------------- */
@@ -22,86 +24,87 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 32px;
-  border-radius: 32px;
-  height: 390px; /* adjust later */
+  padding: 40px;               
+  border-radius: 36px;          
+  min-height: 430px;
+   height: 672px;  
+   width: 460px;          
 }
 
-/* Yellow Card */
+
 .card-yellow {
-  background-color: var(--color-yellow);
+  background-color: #f1ff66;
 }
 
-/* Gray Cards */
 .card-gray {
-  background-color: #eae9e6;
+  background-color: #e7e6e3;
 }
 
-/* Text styles */
+
+
 .product-pretitle {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
+  letter-spacing: -0.3px;
 }
 
 .gray-text {
-  color: #6d6d6d;
+  color: #7b7b7b;
 }
 
 .product-title {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
+  letter-spacing: -1px;
 }
 
 .product-desc {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 150%;
-  max-width: 280px;
+  max-width: 300px;
+  color: #2b2b2b;
 }
 
-/* ------------------- BUTTONS ------------------- */
 
-/* Yellow card: Two buttons */
 .product-buttons {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
-/* White button */
 .btn-white {
   background-color: #fff;
   border: none;
-  padding: 14px;
-  border-radius: 8px;
+  padding: 16px 20px;      
+  border-radius: 10px;
   font-size: 15px;
   font-weight: 600;
-  text-align: left;
   cursor: pointer;
+  text-align: left;
 }
 
-/* Black button */
 .btn-black {
   background-color: #000;
   color: #fff;
   border: none;
-  padding: 14px;
-  border-radius: 8px;
+  padding: 16px 20px;      
+  border-radius: 10px;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
 }
 
-/* Gray card button */
+
 .btn-gray {
-  background-color: #dddcd8;
+  background-color: #dcdad5;
   border: none;
-  padding: 14px;
-  border-radius: 8px;
+  padding: 16px 20px;      
+  border-radius: 10px;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   width: 100%;
-  margin-top: 24px;
+  margin-top: 40px;        
 }

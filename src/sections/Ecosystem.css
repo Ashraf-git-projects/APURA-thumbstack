@@ -1,5 +1,5 @@
 .ecosystem {
-  padding: 120px 0;
+  padding: 120px 60px;
   background-color: var(--color-white);
 }
 
@@ -9,9 +9,17 @@
 }
 
 .ecosystem-title {
-  font-size: 48px;
-  line-height: 120%;
-  font-weight: 600;
-  font-variation-settings: "wght" 600;
+  font-size: 86px;
+  line-height: 110.00000000000001%;
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
   color: var(--color-black);
+  letter-spacing: -2px;
+}
+.dynamic{
+  text-align: end;
+  font-size: 13px;
+  font-weight: 600;
+  font-variation-settings: "whgt" 600;
+  padding: 20px 0px 20px;
 }

@@ -8,10 +8,13 @@
 }
 
 .support-title {
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 400;
+  font-variation-settings: "wght" 400;
   margin-bottom: 28px;
   color: var(--color-black);
+  line-height: 160%;
+  letter-spacing: -2.5px;
 }
 
 .support-btn {

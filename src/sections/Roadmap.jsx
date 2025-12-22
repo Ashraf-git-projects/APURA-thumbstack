@@ -12,7 +12,7 @@ const Roadmap = () => {
 
         <div className="roadmap-list">
 
-          {/* ---------- STAGE 1 ---------- */}
+          
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number">Stage 1</h4>
@@ -20,7 +20,7 @@ const Roadmap = () => {
             </div>
 
             <div className="stage-middle">
-              {/* empty description (as per screenshot) */}
+          
             </div>
 
             <div className="stage-right">
@@ -30,7 +30,7 @@ const Roadmap = () => {
           </div>
 
 
-          {/* ---------- STAGE 2 (Highlighted) ---------- */}
+         
           <div className="stage-row stage-highlight">
             <div className="stage-left">
               <h4 className="stage-number">Stage 2</h4>
@@ -50,7 +50,7 @@ const Roadmap = () => {
           </div>
 
 
-          {/* ---------- STAGE 3 ---------- */}
+        
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number disabled">Stage 3</h4>
@@ -70,7 +70,6 @@ const Roadmap = () => {
           </div>
 
 
-          {/* ---------- STAGE 4 ---------- */}
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number disabled">Stage 4</h4>
@@ -89,7 +88,7 @@ const Roadmap = () => {
           </div>
 
 
-          {/* ---------- STAGE 5 ---------- */}
+         
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number disabled">Stage 5</h4>

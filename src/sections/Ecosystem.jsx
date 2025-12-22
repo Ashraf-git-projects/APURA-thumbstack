@@ -12,6 +12,9 @@ const Ecosystem = () => {
         </h2>
 
       </div>
+       <div className="signup-divider"></div>
+       <div className="dynamic"><p>Dynamic infrastructure</p></div>
+
     </section>
   );
 };
