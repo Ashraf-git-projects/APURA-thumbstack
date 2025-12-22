@@ -1,61 +1,95 @@
 .hero {
   background-color: var(--color-yellow);
-  padding: 120px 0 100px;
+  padding: 140px 0 60px;        
 }
 
 .hero-inner {
   text-align: center;
 }
 
+
+/* ---------------------------------------------------
+   HERO TITLE (Large Heading)
+----------------------------------------------------- */
+
 .hero-title {
-  /* height: 101px; */
-  width: 1446px;
-  /* top: 327px; */
-  /* left: 90px; */
-  font-size: 92px;
+  font-size: 92px;              
   font-weight: 500;
   font-variation-settings: "wght" 500;
-  line-height:110.00000000000001%;
-  max-width: 1100px;
+  line-height: 110.00000000000001%;
   margin: 0 auto 40px;
+  white-space: nowrap;         
+  text-align: center;
+  letter-spacing: -5.5px; 
 }
+
+
+/* ---------------------------------------------------
+   SUBTITLE
+----------------------------------------------------- */
 
 .hero-subtitle {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 500;
+  font-variation-settings: "wght" 500;
   color: var(--color-black);
-  max-width: 800px;
-  margin: 0 auto 80px;
+  max-width: 900px;
+  line-height: 140%;
+  margin: 0 auto 110px;        
 }
+
+
+/* ---------------------------------------------------
+   FEATURES SECTION
+----------------------------------------------------- */
 
 .hero-features {
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
-  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+ margin-top: 120px;
+ padding-top: 80px;  
+  max-width: 1200px;         
+  margin: 0 auto;        
 }
 
+
+/* each item width is controlled for line-break behavior */
 .feature-item {
-  width: 25%;
+  max-width: 260px;
   text-align: left;
 }
 
+
+/* thin grey line above every item */
 .feature-line {
-  width: 100%;
+  width: 220px;
   height: 1px;
-  background-color: var(--gray-400);
-  margin-bottom: 16px;
+  background-color: var(--color-black);  
+  margin-bottom: 18px;
+  opacity: 0.7;
 }
 
+
+/* feature title (can be multi-line) */
 .feature-item h4 {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   font-variation-settings: "wght" 700;
-  margin-bottom: 8px;
+  line-height: 140%;
+  margin-bottom: 6px;
+  white-space: normal;
+  letter-spacing: 0%;          
 }
 
+
+/* feature description */
 .feature-item p {
-  font-size: 14px;
+  font-size: 13px;
+  line-height: 150%;
+  font-weight: 500;
+  font-variation-settings: "wght" 500;
   color: var(--color-black);
-  opacity: 0.85;
+  opacity: 0.9;
+  margin-top: 2px;
 }

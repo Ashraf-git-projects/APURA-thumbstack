@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="feature-item">
             <div className="feature-line"></div>
             <h4>1st cloud platform</h4>
-            <p>To allow data control and ownership</p>
+            <p>To allow data control and <br></br> ownership</p>
           </div>
 
           <div className="feature-item">
