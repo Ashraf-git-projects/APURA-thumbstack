@@ -55,12 +55,14 @@
 .feature-item h4 {
   font-size: 13px;
   font-weight: 700;
+  font-variation-settings: "wght" 700;
   margin-bottom: 6px;
 }
 
 .feature-item p {
   font-size: 13px;
   font-weight: 500;
+  font-variation-settings: "wght" 500;
   line-height: 150%;
   opacity: 0.9;
 }
