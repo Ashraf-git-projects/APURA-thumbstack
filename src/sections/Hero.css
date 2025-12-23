@@ -32,13 +32,12 @@
 .hero-features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+  gap: 30px;
   padding-top: 80px;
   max-width: 100%;
   width: 100%;
-  margin: 0 60px;  
-  padding-left: 20px;
-  padding-right: 20px;
+  margin: 10 auto;  
+  padding: 20px 50px 10px;
   box-sizing: border-box;
 }
 
@@ -163,18 +162,16 @@
 /* ===========================
     TABLET (760px–1200px)
 =========================== */
-@media (min-width: 760px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
 
   .hero-title {
     font-size: 64px;
     white-space: normal;
     padding: 0 30px;
-    text-align: left;
   }
 
   .hero-subtitle {
     padding: 0 30px;
-    text-align: left;
   }
 
   .hero-features {
