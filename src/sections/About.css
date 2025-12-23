@@ -131,8 +131,9 @@
     line-height: 160%;
     padding: 12px 20px;
     height: 53px;
-    width: 360px;
-     align-self: center;
+    min-width: 90%;
+    /* width: auto; */
+     /* align-self: center; */
   }
 }
 

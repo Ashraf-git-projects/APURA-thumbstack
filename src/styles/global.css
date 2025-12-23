@@ -26,9 +26,17 @@
 html, body {
   font-family: sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: var(--font-primary);
   font-optical-sizing: auto;
   font-variation-settings: "wght" 400;
 }
+/* .container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+} */
+
