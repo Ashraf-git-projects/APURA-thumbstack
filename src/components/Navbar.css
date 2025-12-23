@@ -59,12 +59,12 @@
 -------------------------------- */
 @media (max-width: 768px) {
   .nav-inner {
-    display: none; /* hide nav center links */
+    display: none; 
   }
 
   .navbar {
     justify-content: space-between;
-    padding: 28px 20px;
+    padding: 50px 20px 10px;
   }
 
   .nav-logo {
@@ -104,7 +104,7 @@
 
 
 /* -------------------------------
-   Tablet (show full menu but tighter spacing)
+   Tablet 
 -------------------------------- */
 @media (min-width: 768px) and (max-width: 1300px) {
   .navbar {

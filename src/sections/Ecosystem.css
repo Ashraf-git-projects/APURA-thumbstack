@@ -26,13 +26,16 @@
 @media (max-width: 768px) {
 
   .ecosystem {
-    padding: 60px 20px;              
+    padding: 40px 20px;             
   }
 
   .ecosystem-title {
-    font-size: 32px;
-    line-height: 120%;
+    font-size: 43px;
+    line-height: 110.00000000000001%;
     letter-spacing: -1px;
+    font-variation-settings: "wght" 400;
+    padding-bottom: 30px;
+
   }
 
   .ecosystem-inner {
@@ -45,9 +48,7 @@
   }
 
   .dynamic {
-    text-align: left;               
-    padding: 10px 0 0;
-    font-size: 12px;
+   display: none;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {

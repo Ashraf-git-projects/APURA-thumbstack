@@ -14,7 +14,7 @@ const About = () => {
           <h2 className="about-title">
             By Europeans,<br/>for Europeans
           </h2>
-
+          <div className="flex-col">
           <p className="about-desc">
             Our vision is to empower governments, organizations and individuals 
             with control and independence in the online realm.
@@ -23,6 +23,7 @@ const About = () => {
           <button className="about-btn">
             Read more about us →
           </button>
+          </div>
         </div>
 
         {/* Right Content */}

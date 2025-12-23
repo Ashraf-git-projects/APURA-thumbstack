@@ -41,7 +41,7 @@
 
 .news-btn {
   padding: 14px 20px;
-  background-color: var(--color-white);
+  background-color: #FFFFFF;
   border: 1px solid var(--color-black);
   border-radius: 0 8px 8px 0;
   cursor: pointer;
@@ -85,49 +85,58 @@
 }
 
 
+
 /* =============================
       MOBILE (max-width: 768px)
 ============================= */
 @media (max-width: 768px) {
+
   .newsletter-inner {
     flex-direction: column;
     padding: 30px 20px;
-    gap: 30px;
-  }
-
-  .flex-news {
-    text-align: left;
-    width: 100%;
-  }
-
-  .news-title {
-    font-size: 22px;
-    margin-bottom: 10px;
-  }
-
-  .news-desc {
-    font-size: 14px;
-    max-width: 100%;
-    margin-bottom: 20px;
+    gap: 25px;
   }
 
   .news-form {
-    flex-direction: column;
-    align-items: stretch;
     width: 100%;
-    gap: 10px;
+    position: relative;
   }
 
   .news-input {
     width: 100%;
-    border-radius: 8px;
-    border-right: 1px solid var(--color-black);
+    padding: 18px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--color-black);
+    outline: none;
   }
 
+  
   .news-btn {
-    width: 100%;
-    border-radius: 8px;
-    padding: 14px;
-    font-size: 14px;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid var(--color-black);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-variation-settings:"wght" 700;
+    
+    font-size: 0;
+  }
+
+  /* add arrow icon */
+  .news-btn::after {
+    content: "→";
+    font-size: 22px;
+    font-weight: 600;
   }
 }
+
+

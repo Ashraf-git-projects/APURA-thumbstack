@@ -1,6 +1,6 @@
 .hero {
   background-color: var(--color-yellow);
-  padding: 140px 0 60px;        
+  padding: 140px 0 60px;
 }
 
 .hero-inner {
@@ -8,20 +8,16 @@
 }
 
 
-
-
 .hero-title {
-  font-size: 92px;              
+  font-size: 92px;
   font-weight: 500;
   font-variation-settings: "wght" 500;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   margin: 0 auto 40px;
-  white-space: nowrap;         
+  white-space: nowrap;
   text-align: center;
-  letter-spacing: -5.5px; 
+  letter-spacing: -5.5px;
 }
-
-
 
 .hero-subtitle {
   font-size: 24px;
@@ -30,129 +26,153 @@
   color: var(--color-black);
   max-width: 900px;
   line-height: 140%;
-  margin: 0 auto 110px;        
+  margin: 0 auto 110px;
 }
-
-
 
 .hero-features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 100px;
- margin-top: 120px;
- padding-top: 80px;  
-  max-width: 1200px;         
-  margin: 0 80px;        
+  margin-top: 120px;
+  padding-top: 80px;
+  max-width: 1200px;
+  margin: 0 80px;
 }
-
 
 .feature-item {
   max-width: 260px;
   text-align: left;
 }
 
-
 .feature-line {
   width: 220px;
   height: 1px;
-  background-color: var(--color-black);  
+  background-color: var(--color-black);
   margin-bottom: 18px;
   opacity: 0.7;
 }
 
-
 .feature-item h4 {
   font-size: 13px;
   font-weight: 700;
-  font-variation-settings: "wght" 700;
-  line-height: 140%;
   margin-bottom: 6px;
-  white-space: normal;
-  letter-spacing: 0%;          
 }
-
 
 .feature-item p {
   font-size: 13px;
-  line-height: 150%;
   font-weight: 500;
-  font-variation-settings: "wght" 500;
-  color: var(--color-black);
+  line-height: 150%;
   opacity: 0.9;
-  margin-top: 2px;
 }
-/* -------------------------------
-   Mobile Hero (max-width: 768px)
--------------------------------- */
+
+/* ===========================
+      MOBILE (≤ 768px)
+=========================== */
 @media (max-width: 768px) {
 
   .hero {
-    padding: 80px 0 40px;
+    padding: 60px 0 40px;
+    overflow-x: hidden; 
+  }
+
+  .hero .container,
+  .hero-inner {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .hero-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
   }
 
   .hero-title {
-    font-size: 46px;
+    font-size: 50px;
     line-height: 110%;
-    white-space: normal;     /* allow breaking lines */
-    letter-spacing: -2px;
-    margin-bottom: 24px;
-    padding: 0 20px;
+    white-space: normal;
+    letter-spacing: -3px;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto 15px;
+    padding-right: 30px;
   }
 
   .hero-subtitle {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 22px;
+    font-variation-settings: "wght" 400;
     line-height: 140%;
-    max-width: 90%;
-    margin: 0 auto 60px;
-    padding: 0 10px;
+    text-align: left;
+    width: 100%;
+    padding-right: 80px;
+    margin-bottom: 50px;
+    letter-spacing: 0px;
   }
 
+  
   .hero-features {
     display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin: 0 auto;
-    padding: 0 24px;
-    max-width: 100%;
+    gap: 24px;
+    overflow-x: auto;
+    width: 100%;
+    /* padding-bottom: 10px; */
+    margin: 80px 0 0 0 !important; /* remove inherited margins */
+    scrollbar-width: none;
+  }
+
+  .hero-features::-webkit-scrollbar {
+    display: none;
   }
 
   .feature-item {
-    max-width: 100%;
-    text-align: left;
+    min-width: 240px;
+    flex-shrink: 0;      
   }
 
   .feature-line {
     width: 100%;
-    height: 1px;
   }
 
   .feature-item h4 {
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    font-variation-settings: "wght" 700;
   }
 
   .feature-item p {
-    font-size: 14px;
-    line-height: 145%;
+    font-size: 13px;
+    line-height: 150%;
+    font-variation-settings: "wght" 500;
+    padding-top: 6px;
   }
 }
-/* --------------------------------------------
-   Tablet & Small Laptop (760px - 1200px)
-   
----------------------------------------------*/
+
+
+
+/* ===========================
+    TABLET (760px–1200px)
+=========================== */
 @media (min-width: 760px) and (max-width: 1200px) {
 
-  
   .hero-title {
-    white-space: normal;
     font-size: 64px;
-    line-height: 110%;
-    padding: 0 20px;
+    white-space: normal;
+    padding: 0 30px;
+    text-align: left;
+  }
+
+  .hero-subtitle {
+    padding: 0 30px;
+    text-align: left;
   }
 
   .hero-features {
-    margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 30px;
     gap: 60px;
   }
 
