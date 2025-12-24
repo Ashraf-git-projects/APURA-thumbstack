@@ -3,6 +3,7 @@ import "./Ecosystem.css";
 
 const Ecosystem = () => {
   return (
+    <>
     <section className="ecosystem" id="ecosystem">
       <div className="container ecosystem-inner">
 
@@ -13,9 +14,13 @@ const Ecosystem = () => {
 
       </div>
        <div className="signup-divider"></div>
-       <div className="dynamic"><p>Dynamic infrastructure</p></div>
+       {/* <div className="dynamic"> */}
+        
+        {/* </div> */}
 
     </section>
+    <p className="dynamic">Dynamic infrastructure</p>
+    </>
   );
 };
 

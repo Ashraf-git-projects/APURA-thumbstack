@@ -1,11 +1,12 @@
 .ecosystem {
-  padding: 120px 60px;
+  padding: 100px 60px 30px;
   background-color: var(--color-white);
 }
 
 .ecosystem-inner {
   text-align: left;
-  max-width: 900px;
+  max-width: 1263px;
+  padding-bottom: 50px;
 }
 
 .ecosystem-title {
@@ -15,14 +16,19 @@
   font-variation-settings: "wght" 400;
   color: var(--color-black);
   letter-spacing: -2px;
+  /* max-width: 1500px; */
 }
 .dynamic{
   text-align: end;
   font-size: 13px;
   font-weight: 600;
   font-variation-settings: "whgt" 600;
-  padding: 20px 0px 20px;
+  padding-right: 40px;
+  margin-bottom: 50px;
 }
+/* .dynamic p{
+  margin-left: 50px;
+} */
 @media (max-width: 768px) {
 
   .ecosystem {
