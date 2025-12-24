@@ -16,9 +16,9 @@ const Roadmap = () => {
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number">Stage 1</h4>
-              <p className="stage-title">Cloud<br/>infrastructure</p>
+              
             </div>
-
+                <p className="stage-title">Cloud<br/>infrastructure</p>
             <div className="stage-middle">
           
             </div>
@@ -34,10 +34,8 @@ const Roadmap = () => {
           <div className="stage-row stage-highlight">
             <div className="stage-left">
               <h4 className="stage-number">Stage 2</h4>
-              <p className="stage-title">Collaboration</p>
-              <p className="stage-label">In Pilot</p>
             </div>
-
+               <p className="stage-title">Collaboration</p>
             <div className="stage-middle">
               EU alternative to GoogleWorkspace Teams,
               <br/>Meet a.o.
@@ -54,9 +52,9 @@ const Roadmap = () => {
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number disabled">Stage 3</h4>
-              <p className="stage-title disabled">Communication</p>
             </div>
 
+              <p className="stage-title disabled">Communication</p>
             <div className="stage-middle">
               <p className="disabled">
                 Apura IaaS is our service allowing customers to develop
@@ -73,9 +71,9 @@ const Roadmap = () => {
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number disabled">Stage 4</h4>
-              <p className="stage-title disabled">Connectivity</p>
+              
             </div>
-
+              <p className="stage-title disabled">Connectivity</p>
             <div className="stage-middle">
               <p className="disabled">
                 EU alternative to Linkedin, Instagram
@@ -92,9 +90,9 @@ const Roadmap = () => {
           <div className="stage-row">
             <div className="stage-left">
               <h4 className="stage-number disabled">Stage 5</h4>
-              <p className="stage-title disabled">Entertainment</p>
+              
             </div>
-
+             <p className="stage-title disabled">Entertainment</p>
             <div className="stage-middle">
               <p className="disabled">
                 EU alternative to Youtube, Tiktok
