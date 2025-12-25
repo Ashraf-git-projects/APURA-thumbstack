@@ -135,12 +135,12 @@
 
 
 /* -------------------------------------
-   MOBILE (Figma accurate)
+   MOBILE (≤ 768px)
 -------------------------------------- */
 @media (max-width: 768px) {
 
   .roadmap {
-    padding: 60px 0;
+    padding: 50px 0;
   }
 
   .roadmap-title {
@@ -148,57 +148,62 @@
     line-height: 120%;
     letter-spacing: -1px;
     text-align: left;
-    margin: 0 20px 40px;
+    margin: 0 20px 30px;
   }
 
   .roadmap-list {
-    margin: 0 0;
+    margin: 0;
+    padding: 0;
     gap: 0;
   }
 
   .stage-row {
-    grid-template-columns: 1fr;
-    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 20px;
     border-bottom: 1px solid #dcdcdc;
     border-radius: 0;
-    gap: 12px;
-    align-items: flex-start;
+    gap: 10px;
   }
 
   .stage-highlight {
-    padding: 26px 20px;
     border-radius: 0;
+    padding: 26px 20px !important;
   }
 
-  .stage-left p,
-  .stage-left h4 {
-    margin: 0;
+  .stage-left {
+    min-width: unset;
   }
 
   .stage-number {
     font-size: 14px;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
   }
 
   .stage-title {
     font-size: 20px;
     line-height: 120%;
+    max-width: 100%;
   }
 
   .stage-label {
-    margin-top: 4px;
     font-size: 12px;
+    margin-top: 2px;
   }
 
   .stage-middle {
     font-size: 13px;
     line-height: 150%;
     max-width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   .stage-right {
-    justify-content: space-between;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     margin-top: 6px;
   }
 
@@ -211,83 +216,80 @@
 
   .arrow,
   .arrow-dark {
-    margin-left: auto;
     font-size: 20px;
+    margin-left: auto;
   }
 
   .coming-soon {
+    font-size: 13px;
+    opacity: 0.5;
     width: 100%;
     text-align: right;
-    margin-top: 4px;
   }
 }
+
+
 /* -------------------------------------
-   TABLET (Between desktop & mobile)
+   TABLET (769px–1024px)
 -------------------------------------- */
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 
   .roadmap {
-    padding: 80px 0;
+    padding: 70px 0;
   }
 
   .roadmap-title {
-    font-size: 56px;
+    font-size: 48px;
     line-height: 115%;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     text-align: left;
-    margin: 0 40px 50px;
+    margin: 0 30px 40px;
   }
 
   .roadmap-list {
-    margin: 0 20px;
+    margin: 0;
+    padding: 0 20px;
     gap: 20px;
   }
 
   .stage-row {
-    grid-template-columns: 160px 1fr 140px;
-    padding: 28px 24px;
-    border-radius: 18px;
-    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 26px 24px;
+    border-radius: 16px;
   }
 
-  .stage-highlight {
-    padding: 32px 24px;
+  .stage-left {
+    min-width: 120px;
   }
 
   .stage-number {
-    font-size: 16px;
-    margin-bottom: 5px;
+    font-size: 20px;
   }
 
   .stage-title {
-    font-size: 20px;
-    line-height: 120%;
+    font-size: 24px;
   }
 
   .stage-middle {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 150%;
-    max-width: 360px;
+    max-width: 300px;
   }
 
   .stage-right {
-    justify-content: flex-end;
-    gap: 10px;
+    gap: 8px;
   }
 
   .btn-outline,
   .btn-white {
     padding: 10px 16px;
-    font-size: 13px;
-    border-radius: 6px;
+    font-size: 14px;
   }
 
   .arrow,
   .arrow-dark {
     font-size: 20px;
-  }
-
-  .coming-soon {
-    font-size: 13px;
   }
 }
