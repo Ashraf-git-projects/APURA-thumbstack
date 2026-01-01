@@ -36,6 +36,7 @@
   display: flex;
   gap: 14px;
   font-size: 20px;
+  color: var(--color-yellow);
 }
 
 .footer-copy {
@@ -72,6 +73,7 @@
 
   .footer-right .footer-map {
     width: 60%;
+    display: none;
   }
 }
 
@@ -121,6 +123,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    display: none;
   }
 
   .footer-right .footer-map {
