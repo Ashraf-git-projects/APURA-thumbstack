@@ -5,13 +5,14 @@ const Hero = () => {
   return (
     <section className="hero" id="home">
       <div className="container hero-inner">
-
-        <h1 className="hero-title">By Europeans, for Europeans</h1>
+          <div className="head_text">
+        <h1 className="hero-title">By Europeans, <br />for Europeans</h1>
 
         <p className="hero-subtitle">
           Privacy and security that europeans need, demand and expect. Without giving
           other nations control over our our data.
         </p>
+        </div>
 
         <div className="hero-features">
 
