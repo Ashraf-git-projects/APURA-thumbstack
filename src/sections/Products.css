@@ -29,8 +29,12 @@
   min-height: 430px;
    height: 672px;  
    width: 460px;          
+transition: background-color 0.25s ease, transform 0.25s ease;
 }
-
+.product-card:hover{
+  background-color: #f1ff66;
+  transform: translateY(-2px);
+}
 
 .card-yellow {
   background-color: #f1ff66;
