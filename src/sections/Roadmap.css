@@ -35,6 +35,10 @@
   gap: 40px;
 }
 
+.stage-row:hover{
+    background-color: var(--color-yellow);
+  }
+
 .stage-left {
   min-width: 180px;      
 }
@@ -74,12 +78,12 @@
 }
 
 
-.stage-highlight {
+/* .stage-highlight {
   background-color: var(--color-yellow);
   border-radius: 22px;
   padding: 50px 40px !important;
   border-bottom: none;
-}
+} */
 
 
 .stage-label {
@@ -166,6 +170,7 @@
     border-radius: 0;
     gap: 10px;
   }
+
 
   .stage-highlight {
     border-radius: 0;

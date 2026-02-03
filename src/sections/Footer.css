@@ -1,13 +1,13 @@
 .footer {
   background-color: #1f1f1f;
   color: #fff;
-  padding: 120px;
+  padding: 100px;
 }
 
 .footer-inner {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .footer-title {
@@ -45,8 +45,8 @@
 }
 
 .footer-right .footer-map {
-  width: 380px;
-  opacity: 0.3;
+  width: 480px;
+  opacity: 0.8;
 }
 /* =============================
       TABLET (769px – 1024px)

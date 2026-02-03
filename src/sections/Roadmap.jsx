@@ -54,9 +54,9 @@ const Roadmap = () => {
               <h4 className="stage-number disabled">Stage 3</h4>
             </div>
 
-              <p className="stage-title disabled">Communication</p>
+              <p className="stage-title ">Communication</p>
             <div className="stage-middle">
-              <p className="disabled">
+              <p className="">
                 Apura IaaS is our service allowing customers to develop
                 applications on our secured data ownership focused platform.
               </p>
@@ -73,9 +73,9 @@ const Roadmap = () => {
               <h4 className="stage-number disabled">Stage 4</h4>
               
             </div>
-              <p className="stage-title disabled">Connectivity</p>
+              <p className="stage-title">Connectivity</p>
             <div className="stage-middle">
-              <p className="disabled">
+              <p className="">
                 EU alternative to Linkedin, Instagram
               </p>
             </div>
@@ -92,9 +92,9 @@ const Roadmap = () => {
               <h4 className="stage-number disabled">Stage 5</h4>
               
             </div>
-             <p className="stage-title disabled">Entertainment</p>
+             <p className="stage-title">Entertainment</p>
             <div className="stage-middle">
-              <p className="disabled">
+              <p className="">
                 EU alternative to Youtube, Tiktok
               </p>
             </div>

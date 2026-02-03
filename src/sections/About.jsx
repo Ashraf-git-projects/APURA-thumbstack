@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import mapPlaceholder from "../assets/eumapf.png"; 
+import mapPlaceholder from "../assets/eu_map.png"; 
 
 const About = () => {
   return (
@@ -16,8 +16,8 @@ const About = () => {
           </h2>
           <div className="flex-col">
           <p className="about-desc">
-            Our vision is to empower governments, organizations and individuals 
-            with control and independence in the online realm.
+            Our vision is to empower governments,<br /> organizations and individuals 
+            with control <br /> and independence in the online realm.
           </p>
 
           <button className="about-btn">

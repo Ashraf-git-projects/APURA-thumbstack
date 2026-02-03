@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import mapPlaceholder from "../assets/eumapf.png"; 
+import mapPlaceholder from "../assets/eu_map.png"; 
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
